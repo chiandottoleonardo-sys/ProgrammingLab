@@ -1,6 +1,6 @@
 class Canguro():
 
-    def __init__(self, contenuto_tasca = None):
+    def __init__(self, contenuto_tasca=None):
         if contenuto_tasca is None:
             self.contenuto_tasca = []
         else:
@@ -10,7 +10,7 @@ class Canguro():
         self.contenuto_tasca.append(oggetto)
 
     def __str__(self):
-        print(f'Canguro ha in tasca: {self.contenuto_tasca}')
+        return f'Canguro ha in tasca: {self.contenuto_tasca}'
 
 can = Canguro()
 guro = Canguro()
